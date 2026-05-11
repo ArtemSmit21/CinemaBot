@@ -1,0 +1,22 @@
+[project]
+name = "telegram-cinemabot"
+version = "0.1.0"
+description = "Telegram bot for cinema management"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [
+    {name = "Artem Smirnov", email = "smarde2103@mail.ru"}
+]
+
+dependencies = [
+    "aiogram>=3.10.0",
+    "sqlalchemy>=2.0.25",
+    "asyncpg>=0.29.0",
+    "python-dotenv>=1.0.0",
+    "asyncpg",
+    "bs4"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
